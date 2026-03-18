@@ -2,6 +2,7 @@ import HeroSection from '../components/HeroSection'
 import BundleDealsSection from '../components/BundleDealsSection'
 import SuperDealsSection from '../components/SuperDealsSection'
 import BusinessBannerSection from '../components/LHorseInfo'
+import ProductHome from '../components/ProductHome'
 import BottomCTASection from '../components/BottomCTASection'
 
 export default function Home() {
@@ -33,6 +34,9 @@ export default function Home() {
 
       {/* Business Banner with Bulk Saver Hub + Buy Again */}
       <BusinessBannerSection />
+
+      {/* More to Love product grid */}
+      <ProductHome />
 
       {/* Bottom CTA */}
       <BottomCTASection />
