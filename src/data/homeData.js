@@ -1,0 +1,137 @@
+export const coupons = [
+  { off: 'LKR 24,413', code: 'ZNQ070', min: 'LKR 177,522+' },
+  { off: 'LKR 20,926', code: 'ZNQ060', min: 'LKR 149,621+' },
+  { off: 'LKR 15,694', code: 'ZNQ045', min: 'LKR 111,256+' },
+]
+
+export const bundleProducts = [
+  {
+    id: 1,
+    name: 'Rimless Sunglasses Rectangle Fashion Popular Frameless...',
+    price: 'LKR 763.80',
+    originalPrice: 'LKR 2,441.45',
+    discount: 69,
+    rating: 4.9,
+    sold: '100K+',
+    image: 'https://picsum.photos/seed/sun/400/400',
+  },
+  {
+    id: 2,
+    name: 'For Lenovo Tab M11 2024 11 Inch Tempered Glass Screen...',
+    price: 'LKR 1,252.08',
+    originalPrice: 'LKR 1,356.71',
+    discount: 8,
+    rating: 4.5,
+    sold: '2,000+',
+    image: 'https://picsum.photos/seed/tab/400/400',
+  },
+  {
+    id: 3,
+    name: "1Pc Men's Fashion Glasses New Metal Frameless Rectangle...",
+    price: 'LKR 763.80',
+    originalPrice: 'LKR 2,533.48',
+    discount: 70,
+    rating: 4.8,
+    sold: '214',
+    image: 'https://picsum.photos/seed/glass/400/400',
+  },
+]
+
+export const superDeals = [
+  {
+    id: 4,
+    name: 'Highly absorbent double-sided sponge magic cleaning...',
+    price: 'LKR 348.50',
+    originalPrice: 'LKR 1,045.76',
+    discount: 66,
+    rating: null,
+    sold: null,
+    image: 'https://picsum.photos/seed/sponge/400/400',
+  },
+  {
+    id: 5,
+    name: 'Disney Pixar Cars 3 Lightning Mcqueen Toys Mater Mode...',
+    price: 'LKR 533.08',
+    originalPrice: 'LKR 1,414.91',
+    discount: 62,
+    rating: null,
+    sold: null,
+    image: 'https://picsum.photos/seed/cars/400/400',
+  },
+  {
+    id: 6,
+    name: 'Welding Wire Fixture Adjustable Suction Bracket...',
+    price: 'LKR 345.28',
+    originalPrice: 'LKR 782.80',
+    discount: 55,
+    rating: null,
+    sold: null,
+    image: 'https://picsum.photos/seed/cable/400/400',
+  },
+]
+
+export const bulkSaverProducts = [
+  {
+    id: 101,
+    name: 'Bulk Coffee Beans (5kg) - Premium Roast',
+    price: 12500,
+    originalPrice: 14999,
+    unit: '5kg bag',
+    retailPrice: 1500,
+    label: 'Top Seller',
+    image: 'https://picsum.photos/seed/coffee/400/400',
+  },
+  {
+    id: 102,
+    name: 'Multi-Pack Phone Charger Cables (10-pack)',
+    price: 2890,
+    originalPrice: 3999,
+    unit: '10-pack',
+    retailPrice: 450,
+    label: 'Best Value',
+    image: 'https://picsum.photos/seed/cables/400/400',
+  },
+  {
+    id: 103,
+    name: 'Reusable N95 Face Masks (50pcs)',
+    price: 9990,
+    originalPrice: 12999,
+    unit: '50pcs',
+    retailPrice: 250,
+    label: 'Bulk Save',
+    image: 'https://picsum.photos/seed/masks/400/400',
+  },
+]
+
+export const buyAgainProducts = [
+  {
+    id: 201,
+    name: 'Wireless Earbuds with Charging Case',
+    price: 3599,
+    originalPrice: 4999,
+    unit: 'per set',
+    retailPrice: 4500,
+    label: 'Repeat Buy',
+    image: 'https://picsum.photos/seed/earbuds/400/400',
+  },
+  {
+    id: 202,
+    name: 'Portable Power Bank 20,000mAh',
+    price: 4299,
+    originalPrice: 5999,
+    unit: 'per unit',
+    retailPrice: 5400,
+    label: 'Best Seller',
+    image: 'https://picsum.photos/seed/powerbank/400/400',
+  },
+  {
+    id: 203,
+    name: 'Smartwatch Fitness Tracker',
+    price: 6799,
+    originalPrice: 7999,
+    unit: 'per item',
+    retailPrice: 7200,
+    label: 'Recommended',
+    image: 'https://picsum.photos/seed/smartwatch/400/400',
+  },
+]

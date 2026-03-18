@@ -1,0 +1,113 @@
+/*
+  This project uses Tailwind CSS for layout and styling.
+  Keep this file empty unless you need custom global styles.
+*/
+
+.app-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(var(--background-rgb), 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.app-navbar__brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+.app-navbar__nav {
+  display: flex;
+  gap: 16px;
+}
+
+.app-navbar__link {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text);
+  padding: 8px 10px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.app-navbar__link:hover {
+  background: rgba(var(--text-rgb), 0.05);
+}
+
+.app-navbar__link--active {
+  background: rgba(var(--accent-rgb), 0.12);
+  color: var(--accent);
+}
+
+.app-footer {
+  border-top: 1px solid var(--border);
+  padding: 24px 20px;
+  background: rgba(var(--background-rgb), 0.9);
+  text-align: center;
+}
+
+.app-footer__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.app-footer__link {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.app-footer__link:hover {
+  text-decoration: underline;
+}
+
+.home-page {
+  padding: 40px 0;
+}
+
+.home-page__hero {
+  max-width: 680px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.home-page__hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.home-page__cta {
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--muted);
+}
+
+.not-found {
+  padding: 56px 0;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.not-found a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.not-found a:hover {
+  text-decoration: underline;
+}
